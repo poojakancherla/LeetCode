@@ -1,24 +1,31 @@
 package com.company;
 
-import java.util.*;
 
 public class MoveZeros
 {
     public static void main(String[] args)
     {
-        List<Integer> nums = new ArrayList<Integer>((Arrays.asList(0, 1, 0, 3, 12)));
-        List<Integer> zeros = new ArrayList<Integer>();
-
-        for(int i = 0; i < nums.size(); i++)
+        int temp;
+        int counter = 0;
+        int[] nums = new int[]{0, 1, 0, 3, 12};
+        for(int i = 0; i < nums.length; i++)
         {
-            if(nums.get(i) == 0)
+            if (nums[i] != 0)
             {
-                nums.remove(nums.get(i));
-                zeros.add(0);
+                temp = nums[counter];
+                nums[counter] = nums[i];
+                nums[i] = temp;
+                counter++;
             }
+
         }
-        nums.addAll(zeros);
-        System.out.println(nums);
+
+
+        for(int i = 0; i < nums.length; i++)
+        {
+            System.out.print(nums[i] + " ");
+        }
+
 
     }
 }
