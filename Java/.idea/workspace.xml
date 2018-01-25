@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778dbca2-f863-4ebe-bf37-60a927c1dc38" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ExcelSheetColumnNumber.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/company/SumOfTwoIntegers.class" afterPath="$PROJECT_DIR$/out/production/Java/com/company/SumOfTwoIntegers.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java" afterPath="$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumOfTwoIntegers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SumOfTwoIntegers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelSheetColumnNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ExcelSheetColumnNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -70,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/com/company/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ExcelSheetColumnNumber.java" />
       </list>
     </option>
   </component>
@@ -143,7 +156,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.SumOfTwoIntegers" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ExcelSheetColumnNumber" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -321,8 +334,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SumOfTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ExcelSheetColumnNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -10,15 +10,18 @@ public class SumOfTwoIntegers
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         if(a == 0) System.out.println(b);
-        if(b == 0) System.out.println(a);
-
-        while(b!= 0)
+        else if(b == 0) System.out.println(a);
+        else
         {
-            int carry = a & b;
-            a = a ^ b;
-            b = carry << 1;
+            while(b!= 0)
+            {
+                int carry = a & b;
+                a = a ^ b;
+                b = carry << 1;
+            }
+
+            System.out.print(a);
         }
 
-        System.out.print(a);
     }
 }
