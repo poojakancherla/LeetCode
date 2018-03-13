@@ -1,20 +1,40 @@
 package com.company;
-
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class UniqueCharacter
 {
-    public static void main(String[] args)
-    {
-        String s = "leetcode";
-        HashMap h = new HashMap();
-        for (int i = 0; i < s.length(); i++)
-        {
-            if (h.containsKey(s.charAt(i)))
-                h.put(s.charAt(i), h.get(s.charAt(i) + 1));
-            else
-                h.put(s.charAt(i), 1);
-        }
-        System.out.println(h);
-    }
+ public static char get(String s) throws Exception
+ {
+     if(s.length() == 0)
+     {
+         System.out.println("Failed");
+         System.exit(0);
+     }
+     else
+     {
+         Map<Character, Integer> m = new LinkedHashMap<Character, Integer>();
+         for(int i = 0; i < s.length(); i++)
+         {
+             if(m.containsKey(s.charAt(i)))
+                 m.put(s.charAt(i), m.get(s.charAt(i)) + 1);
+             else
+                 m.put(s.charAt(i), 1);
+         }
+         for(Map.Entry<Character, Integer> hm : m.entrySet())
+         {
+             if(hm.getValue() == 1)
+                 return hm.getKey();
+         }
+     }
+     return 0;
+ }
+
+ public static void main(String[] args) throws Exception
+ {
+     UniqueCharacter d = new UniqueCharacter();
+
+     System.out.println(get("hheecode"));
+ }
+
 }
