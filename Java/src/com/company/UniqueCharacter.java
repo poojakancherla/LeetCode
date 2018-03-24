@@ -32,8 +32,6 @@ public class UniqueCharacter
 
  public static void main(String[] args) throws Exception
  {
-     UniqueCharacter d = new UniqueCharacter();
-
      System.out.println(get("hheecode"));
  }
 
